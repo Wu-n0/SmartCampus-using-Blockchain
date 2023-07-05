@@ -1,28 +1,23 @@
-# SmartCampus-using-Blockchain
-INTRODUCTION
+# SmartCampus using Blockchain
 
-Focused on creating an incentive program that can track how students behaved on a decentralized
-blockchain. Students would be awarded cryptocurrency called "BitsToken" for good behavior and have
-their currency taken away for bad behavior. All transactions and currency are stored on the blockchain.
+## Introduction
 
+I am deeply engaged in the development of an innovative incentive program that leverages decentralized blockchain technology to monitor and reward student behavior. The primary aim is to establish a system where students are incentivized with a cryptocurrency called "BitsToken" for exhibiting positive conduct while facing deductions for engaging in undesirable behavior. All transactions and currency holdings are securely stored on the blockchain.
 
+## Implementation
 
-IMPLEMENTATION
+To realize this vision, we have constructed a private blockchain infrastructure where we deploy our carefully crafted smart contracts. These contracts encompass a set of essential functions:
 
-After creating a private blockchain, we deploy our smart contracts onto our private blockchain. The smartcontract has the following functions:
+1. **BitsToken**: This function generates the BitsToken cryptocurrency as a reward for students who demonstrate commendable actions within the campus environment.
 
-BitsToken - It is the name of the cryptocurrency that is given out to students as an incentive to do good things on campus. This function creates the token everytime the use does something deemed good.
+2. **Add User**: By employing this function, we facilitate the seamless addition of new users to our blockchain network, enabling them to participate in the incentive program.
 
-Add User - Adds a new user to the blockchain 
+3. **Destroy Token**: Whenever a user engages in behavior deemed inappropriate, this function allows the removal of corresponding tokens from the blockchain, discouraging undesirable actions.
 
-Destroy Token - Used to delete tokens on the blockchain when a user does something deemed a bad deed. 
+4. **Transfer Token**: With this function, users can transfer their accumulated tokens between different accounts, promoting a fluid exchange of value within the incentive system.
 
-Transfer Token - Transfers tokens from one account to another
+5. **Disable Account**: In cases where a user persistently engages in negative behavior or fails to adhere to established rules, this function temporarily disables their account, promoting accountability and encouraging compliance.
 
-Disable Account - Temporarily disables the users account if he continues to only do bad deeds or doesn't follow the rules
+## Motivation
 
-
-
-MOTIVATION
-
-To create a blockchain technology that can be implemented in our every day life.
+My driving motivation behind this project is to develop blockchain technology that can seamlessly integrate into our daily lives, addressing real-world challenges and fostering positive behavioral change. By utilizing the inherent transparency and security of blockchain, we can establish an effective incentive program with far-reaching applications.
